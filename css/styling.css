@@ -1,0 +1,103 @@
+p, h1, h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.aboutme {
+    border: 2px solid;
+}
+
+.glyphicon.glyphicon-phone {
+    font-size: 30px;
+}
+
+.glyphicon.glyphicon-envelope {
+    font-size: 30px;
+}
+
+.glyphicon.glyphicon-home {
+    font-size: 30px;
+}
+
+.wrapper {
+    background-image: url("../assets/backgrounds/landing.jpg");
+    background-position: center top;
+    height:637px;
+}
+
+#headerfont, #whitetext {
+  color: white;
+}
+
+#breakfast {
+  background-image: url("../assets/foodtop/breakfast.jpg");
+  height:210px;
+}
+
+#lunch {
+  background-image: url("../assets/foodtop/lunch.jpg");
+  height:210px;
+}
+
+#dinner {
+  background-image: url("../assets/foodtop/dinner.jpg");
+  height:210px;
+}
+
+#foodbg{
+  background-image: url("../assets/backgrounds/foodsBg.jpg");
+  height:599px;
+}
+
+#subscribe {
+  background-image: url("../assets/backgrounds/subscribe.jpg");
+  height:301px;
+}
+
+#backgroundwhite {
+  background-color: #F0F0F0;
+  height:105px;
+}
+
+#backgroundorange {
+  background-color: #FF773D;
+  height:105px;
+}
+
+#bgorange {
+  background-color: #FF773D;
+  height:500px;
+}
+
+.fastfood1 {
+  margin-top: 50px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.fastfood2 {
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.drinks1 {
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.drinks2 {
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.tablepadding {
+  margin: 120px 20px 200px 20px;
+  background-color: white;
+}
+
+#footermargin {
+  margin-top: 150px;
+}
