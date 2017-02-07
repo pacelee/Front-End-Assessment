@@ -101,3 +101,11 @@ p, h1, h2 {
 #footermargin {
   margin-top: 150px;
 }
+
+#links {
+  display: none;
+}
+
+.food:hover  {
+  opacity: 0.5;
+}

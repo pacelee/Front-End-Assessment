@@ -15,3 +15,7 @@ function openCity(cityName) {
   }
   document.getElementById(cityName).style.display = "block";
 }
+
+  $('#dropdown').on('click', function() {
+    $('#links').toggle();
+  });

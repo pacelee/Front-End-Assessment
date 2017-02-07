@@ -8,14 +8,29 @@
     <link href='css/styling.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-91540049-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
   </head>
 
   <body>
         <div class='container-fluid wrapper'>
             <br>
-            <button type="button" class="btn btn-default" aria-label="Left Align">
+            <button type="button" class="btn btn-default" id="dropdown" aria-label="Left Align">
             <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
             </button>
+            <ul id="links">
+              <li><a href="#1"> Fast Food </a></li>
+              <li><a href="#2"> Events </a></li>
+              <li><a href="#3"> Subscribe </a></li>
+            </ul>
             <center><img src="assets/logoBig.png"/></center>
             <center><br><h2 id='headerfont'> We Provide The Best Food <br>
             At The <strong>Right Price</strong></h2>
@@ -28,20 +43,20 @@
             <h1 id='whitetext'><center> Party Time </h1>
           </div>
         </div>
-        <div class='col-md-3' id='breakfast'>
+        <div class='col-md-3 food' id='breakfast'>
         <h1 id='whitetext'><center><br><br>Breakfast</center></h1>
         </div>
-        <div class='col-md-3' id='lunch'>
+        <div class='col-md-3 food' id='lunch'>
         <h1 id='whitetext'><center><br><br>Lunch</center></h1>
         </div>
-        <div class='col-md-3' id='dinner'>
+        <div class='col-md-3 food' id='dinner'>
         <h1 id='whitetext'><center><br><br>Dinner</center></h1>
         </div>
         <br>
         <br>
           <div class='container'>
             <div class='row'>
-              <div class='col-md-6'>
+              <div class='col-md-6' id='1'>
               <img class='fastfood1' src='assets/fastFood1.jpg'/><br>
               <img class='fastfood2' src='assets/fastFood2.jpg'/>
               </div>
@@ -65,7 +80,7 @@
           </div>
         </div>
       <br><br>
-      <div class='container-fluid'>
+      <div class='container-fluid' id='2'>
         <div class='row' id='foodbg'>
           <div class='col-md-2'>
           </div>
@@ -101,7 +116,8 @@
 
 
 
-      <div class='container-fluid'>
+
+      <div class='container-fluid' id='3'>
         <div class='row' id='subscribe'>
           <div class='col-md-3'>
           </div>
