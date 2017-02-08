@@ -109,3 +109,8 @@ p, h1, h2 {
 .food:hover  {
   opacity: 0.5;
 }
+
+.counter {
+  font-size: 35px;
+  color: white;
+}

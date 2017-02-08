@@ -19,3 +19,14 @@ function openCity(cityName) {
   $('#dropdown').on('click', function() {
     $('#links').toggle();
   });
+
+  function counter() {
+  setInterval(function() {
+  if ((Number($('.counter').html()) < 10))
+  {
+  $('.counter').html(Number($('.counter').html()) + 1)
+  }
+  }, 1000);
+};
+
+  counter();
